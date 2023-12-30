@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "inventory"
+version = "0.1.0"
+description = ""
+authors = ["Musab <musabs2802@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.108.0"
+uvicorn = {extras = ["standard"], version = "^0.25.0"}
+redis-orm = "^0.4.1"
+redis-om = "^0.2.1"
+pydantic = "1.10.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
